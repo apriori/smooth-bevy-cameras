@@ -1,7 +1,7 @@
 use bevy::prelude::*;
 use smooth_bevy_cameras::{
-    controllers::orbit::{OrbitCameraBundle, OrbitCameraController, OrbitCameraPlugin},
     LookTransformPlugin,
+    controllers::orbit::{OrbitCameraBundle, OrbitCameraController, OrbitCameraPlugin},
 };
 
 fn main() {
