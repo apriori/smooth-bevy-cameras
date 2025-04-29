@@ -46,8 +46,9 @@ fn setup(
             },
             smoother: Smoother::new(0.9),
         })
-        .insert((Camera3d::default(),
-                 Msaa::Sample4,
-                 Transform::from_xyz(-2.0, 2.5, 5.0).looking_at(Vec3::new(0.0, 0.5, 0.0), Vec3::Y)
+        .insert((
+            Camera3d::default(),
+            Msaa::Sample4,
+            Transform::from_xyz(-2.0, 2.5, 5.0).looking_at(Vec3::new(0.0, 0.5, 0.0), Vec3::Y),
         ));
 }
