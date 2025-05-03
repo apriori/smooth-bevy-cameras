@@ -1,7 +1,7 @@
 use bevy::prelude::*;
 use smooth_bevy_cameras::{
-    controllers::fps::{FpsCameraBundle, FpsCameraController, FpsCameraPlugin},
     LookTransformPlugin,
+    controllers::fps::{FpsCameraBundle, FpsCameraController, FpsCameraPlugin},
 };
 
 fn main() {
